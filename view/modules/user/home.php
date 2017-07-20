@@ -8,7 +8,6 @@
     </section>
  -->
 
-
     <section id="main">
       <div class="container">
         <div class="row">
@@ -21,7 +20,7 @@
               <a href="posts.html" class="list-group-item"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Publicaciones <span class="badge">33</span></a>
               <a href="users.html" class="list-group-item"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Seguidores <span class="badge">203</span></a>
             </div>
-<!-- 
+<!--
             <div class="well">
               <h4>Disk Space Used</h4>
               <div class="progress">
@@ -116,5 +115,3 @@
         </div>
       </div>
     </section>
-
-  
