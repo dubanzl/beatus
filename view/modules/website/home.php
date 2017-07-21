@@ -133,7 +133,7 @@
 
                 <div class="feature-lead text-center">
                     <h4 class="title">Te llamo la atencion?</h4>
-                    <p><a class="btn btn-cta btn-cta-secondary" href="features.html">Ver Video Introductorio</a></p>
+                    <p><a class="btn btn-cta btn-cta-secondary" href="#">Ver Video Introductorio</a></p>
                 </div>
             </div><!--//container-->
         </section><!--//why-->
