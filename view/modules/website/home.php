@@ -13,8 +13,8 @@
     <section class="promo section section-on-bg">
         <div class="container text-center">
             <h2 class="title">Unete y Dale vida a tu<br /> Entidad Religiosa!</h2>
-            <p class="intro">Bendecidos, el mejor sistemas para que tu iglesia crezca  <br /> desde la comodidad de tu casa </p>
-            <p><a class="btn btn-cta btn-cta-primary" href="signup.html">Iniciar Gratis</a></p>
+            <p class="intro">Beatus, el mejor sistemas para que tu iglesia crezca  <br /> desde la comodidad de tu casa </p>
+            <p><a class="btn btn-cta btn-cta-primary" href="registrarse">Iniciar Gratis</a></p>
             <button type="button" class="play-trigger btn-link " data-toggle="modal" data-target="#modal-video" ><i class="fa fa-youtube-play"></i> Ver el Video Inteoductorio</button>
         </div><!--//container-->
     </section><!--//promo-->
@@ -141,7 +141,7 @@
         <!-- ******Testimonials Section****** -->
         <section class="section testimonials">
             <div class="container">
-                <h2 class="title text-center">¿Qué opinan sobre Bendecidos?</h2>
+                <h2 class="title text-center">¿Qué opinan sobre Beatus?</h2>
                 <div id="testimonials-carousel" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#testimonials-carousel" data-slide-to="0" class="active"></li>
@@ -174,11 +174,11 @@
                             <div class="content">
                                 <blockquote>
                                 <i class="fa fa-quote-left"></i>
-                                <p>no se como agradecerrles, antes de mudarme de casa frecuentaba ir a una iglesia, pero despues ninguna me parecia lo mismo que comence a lejarme, esta aplicaccion no solo me ayudo a volver a mi mundillo, si no tambien a encontrar una iglesia confiable y llena de gente buena! dios los vendiga </p>
+                                <p>no se como agradecerles, antes de mudarme de casa frecuentaba ir a una iglesia, pero despues ninguna me parecia lo mismo que comence a lejarme, esta aplicaccion no solo me ayudo a volver a mi mundillo, si no tambien a encontrar una iglesia confiable y llena de gente buena! dios los vendiga </p>
                                 </blockquote>
-                                <p class="source">Tony Lee<br /></p>
-                            </div><!--//content-->
+                                <p class="source">Cristina armando<br /></p>
                         </div><!--//item-->
+                      </div><!--//content-->
                     </div><!--//carousel-inner-->
 
                 </div><!--//carousel-->
@@ -206,7 +206,7 @@
         <section id="cta-section" class="section cta-section text-center home-cta-section">
             <div class="container">
                <h2 class="title">Listo para promocionar su inglesia?</h2>
-               <p class="intro">Mas de  <span class="counting">10</span> iglesias  usan Bendecidos</p>
+               <p class="intro">Mas de  <span class="counting">10</span> iglesias  usan Beatus</p>
                <p><a class="btn btn-cta btn-cta-primary" href="#" target="_blank">Inicar Ahora</a></p>
             </div><!--//container-->
         </section><!--//cta-section-->

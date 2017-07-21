@@ -1,6 +1,5 @@
 RewriteEngine On
 
-RewriteRule ^inicio$  		    index.php 
-RewriteRule ^Resgistrarse$  	index.php?c=website&a=signup
-RewriteRule ^login$  			index.php?c=website&a=login		
-
+RewriteRule ^inicio$  		              index.php
+RewriteRule ^registrarse$  	            index.php?c=website&a=signup
+RewriteRule ^iniciar-sesion$  			    index.php?c=website&a=login

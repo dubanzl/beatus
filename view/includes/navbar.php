@@ -1,7 +1,7 @@
-  <header id="header" class="header navbar-fixed-top">  
-        <div class="container">       
+  <header id="header" class="header navbar-fixed-top">
+        <div class="container">
             <h1 class="logo">
-                <a href="index.html"><span class="text"><?php echo $logo; ?></span></a>
+              <a href="inicio"><span class="text">Beatus</span></a>
             </h1><!--//logo-->
             <nav class="main-nav navbar-right" role="navigation">
                 <div class="navbar-header">
@@ -26,13 +26,13 @@
                                 <li><a href="blog-category.html">Blog Category</a></li>
                                 <li><a href="blog-archive.html">Blog Archive</a></li>
                                 <li><a href="about.html">About Us</a></li>
-                                <li><a href="contact.html">Contact</a></li>                    
-                            </ul>   -->                          
-                        </li><!--//dropdown-->                         
-                        <li class="nav-item"><a href="Resgistrarse">Resgitrarse</a></li>
-                        <li class="nav-item nav-item-cta last"><a class="btn btn-cta btn-cta-secondary" href="login">Iniciar Sescion</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>   -->
+                        </li><!--//dropdown-->
+                        <li class="nav-item"><a href="registrarse">Registrarse</a></li>
+                        <li class="nav-item nav-item-cta last"><a class="btn btn-cta btn-cta-secondary" href="iniciar-sesion">Iniciar Sesion</a></li>
                     </ul><!--//nav-->
                 </div><!--//navabr-collapse-->
-            </nav><!--//main-nav-->                     
+            </nav><!--//main-nav-->
         </div><!--//container-->
     </header><!--//header-->
