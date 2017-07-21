@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="view/assets/plugins/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="view/assets/plugins/flexslider/flexslider.css">
     <link id="theme-style" rel="stylesheet" href="view/assets/css/styles.css">
+    <link rel="stylesheet" href="view/assets/css/app.css">
 </head>
 
 </head>

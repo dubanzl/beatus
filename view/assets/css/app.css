@@ -1,1 +1,7 @@
-app	
+
+.parsley-equalto , .parsley-required , .parsley-type , .parsley-minlength , .parsley-pattern{
+    font-size: 12px;
+    color: red ;
+    font-family: sans-serif;
+    border: rgba(255, 0, 0, 0.5);
+}

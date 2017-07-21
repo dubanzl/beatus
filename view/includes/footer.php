@@ -118,9 +118,14 @@
     <script type="text/javascript" src="view/assets/plugins/flexslider/jquery.flexslider-min.js"></script>
     <script type="text/javascript" src="view/assets/js/main.js"></script>
 
-    <!-- Modal Video -->
-    <script type="text/javascript" src="view/assets/js/modal-video.js"></script>
+    <!--Parsley  Validacion Formularios -->
+    <script type="text/javascript" src="view/assets/js/Parsley.min.js"></script>
+    <script type="text/javascript" src="view/assets/js/es.js"></script>
+    <!-- Parsley/ -->
 
+    <!-- Modal Video cargar -->
+    <script type="text/javascript" src="view/assets/js/modal-video.js"></script>
+    <!-- modal video / -->
     </body>
 
 </html>

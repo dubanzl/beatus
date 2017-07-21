@@ -3,3 +3,4 @@ RewriteEngine On
 RewriteRule ^inicio$  		              index.php
 RewriteRule ^registrarse$  	            index.php?c=website&a=signup
 RewriteRule ^iniciar-sesion$  			    index.php?c=website&a=login
+RewriteRule ^completar-formulario$      index.php?c=user&a=profile

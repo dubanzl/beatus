@@ -9,6 +9,7 @@
 
             </div><!--//container-->
         </header><!--//header-->
+
         <!-- ******Signup Section****** -->
         <section class="signup-section access-section section">
             <div class="container">
@@ -19,38 +20,40 @@
                           <!--   <p class="intro text-center">It only takes 3 minutes!</p>                -->
                             <div class="row">
                                 <div class="form-container col-xs-12 col-md-5">
-                                    <form class="signup-form">
+                                    <form class="signup-form" data-parsley-validate method="post" action="inicio" >
 
                                 <div class="form-group email">
                                     <label class="sr-only" for="signup-email">Ingresa Nombre Completo</label>
-                                       <input id="signup-email" type="email" class="form-control login-email" placeholder=" Nombre Completo">
+                                       <input id="signup-email" type="text" class="form-control login-email" placeholder=" Nombre Completo" required
+                                       data-parsley-pattern="^[a-zA-Z ]+$">
                                  </div><!--//form-group-->
 
 
-                                <div class="form-group email">
+                                <!-- <div class="form-group email">
                                     <label class="sr-only" for="signup-email">Ingresa Nombre Completo</label>
-                                      <select name="" id="" class="form-control" type="">
-                                          <option value="">Selecione Genero</option>
-                                      <!--     <option value="1">SEGUIDOR</option> -->
-                                          <option value="">Representante</option>
-                                          <option value="">Seguidor</option>
-                                      </select>
-                                 </div><!--//form-group-->
+                                      <input id="signup-email" idea type="text" name="" value="" class="form-control login-email" placeholder="">
+                                 </div> -->
+                                 <!--//form-group-->
+
 
                                         <div class="form-group email">
                                             <label class="sr-only" for="signup-email">Tu Correo</label>
-                                            <input id="signup-email" type="email" class="form-control login-email" placeholder="Tu Correo">
+                                            <input id="signup-email" type="email" class="form-control login-email" placeholder="Tu Correo" required>
                                         </div><!--//form-group-->
+
                                         <div class="form-group password">
                                             <label class="sr-only" for="signup-password">Tu Contraseña</label>
-                                            <input id="signup-password" type="password" class="form-control login-password" placeholder="Contraseña">
+                                            <input id="signup-password" type="password" class="form-control login-password" placeholder="Contraseña" required
+                                              data-parsley-equalto="#signup-password" data-parsley-minlength="8" data-parsley-type="alphanum"
+                                            >
 
                                         </div><!--//form-group-->
                                             <div class="form-group password">
-                                            <label class="sr-only" for="signup-password">Verificar  Contraseña</label>
-                                            <input id="signup-password" type="password" class="form-control login-password" placeholder="Verificar Contraseña">
+                                            <label class="sr-only" for="signup-password"  >Verificar  Contraseña</label>
+                                            <input id="signup-password"  data-parsley-equalto="#signup-password" type="password" class="form-control login-password" placeholder="Verificar Contraseña">
                                         </div><!--//form-group-->
-                                        <button type="submit" class="btn btn-block btn-cta-primary">Registrase</button>
+
+                                        <button type="submit" class="btn btn-block btn-cta-primary">Registrarse</button>
                                         <p class="note"> al registrarse, usted acepta nuestras condiciones de servicio y política de privacidad..</p>
                                         <p class="lead">¿Ya tienes una cuenta? <a class="login-link" id="login-link" href="iniciar-sesion">iniciar-sesion</a></p>
                                     </form>
