@@ -35,7 +35,5 @@
         require_once("view/dashboard/footer.php");
        }
 
-
-
     }
 ?>
