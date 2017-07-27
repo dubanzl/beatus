@@ -3,4 +3,9 @@ RewriteEngine On
 RewriteRule ^inicio$  		              index.php
 RewriteRule ^registrarse$  	            index.php?c=website&a=signup
 RewriteRule ^iniciar-sesion$  			    index.php?c=website&a=login
-RewriteRule ^completar-formulario$      index.php?c=user&a=profile
+RewriteRule ^perfil$                    index.php?c=user&a=profile
+RewriteRule ^panel$                     index.php?c=user&a=dashboard
+RewriteRule ^publicar$                  index.php?c=user&a=publication
+RewriteRule ^publicaciones-realizadas$  index.php?c=user&a=post
+RewriteRule ^salir$  		                index.php
+rewriteRule ^recuperar-contraseña$      index.php?c=website&a=reset_password

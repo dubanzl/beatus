@@ -34,7 +34,7 @@
                                                 <input type="checkbox">Recordar Contraseña
                                             </label>
                                         </div><!--//checkbox-->
-                                            <p class="forgot-password"><a href="reset-password.html">Recuperar Contraseña ?</a></p>
+                                            <p class="forgot-password"><a href="recuperar-contraseña">Recuperar Contraseña ?</a></p>
                                          <p class="lead">¿No tienes una cuenta?<br /><a class="signup-link" href="registrarse">Crear Una cuenta</a></p>
                                     </form>
                                 </div><!--//form-container-->

@@ -7,23 +7,23 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Admnistrador</a>
+          <a class="navbar-brand">Admnistrador</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Dashboard</a></li>
-            <li><a href="pages.html">Crear Publicacion</a></li>
-            <li><a href="posts.html">Perfil</a></li>
-            <li><a href="users.html">Premium</a></li>
+            <li class="active"><a href="panel">Panel De Control</a></li>
+            <li><a href="publicar">Crear Publicacion</a></li>
+            <li><a href="perfil">Perfil</a></li>
+            <li><a href="premium">Premium</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#">Bienvenido, Duban</a></li>
-            <li><a href="login.html">Salir</a></li>
+            <li><a href="salir">Cerar sesion</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-<!-- 
+<!--
      <header id="header">
       <div class="container">
         <div class="row">
