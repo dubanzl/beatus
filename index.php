@@ -1,5 +1,7 @@
 <?php
 
+    require_once("model/conn.model.php");
+
     if(isset($_REQUEST['c'])){
        $controller = strtolower($_REQUEST['c']);
        $action = isset($_REQUEST['a']) ? $_REQUEST ['a']:home ;
