@@ -2,6 +2,9 @@
 <?php
     class UserController{
 
+
+        
+
       // panel control Usuario
      	 public function dashboard(){
      	 	require_once("view/dashboard/head.php");
@@ -20,8 +23,7 @@
 
        //vista perfil
        public function profile(){
-        require_once("view/dashboard/head.php");
-        require_once("view/dashboard/navbar.php");
+        require_once("view/includes/head.php");
         require_once("view/modules/user/profile.php");
         require_once("view/dashboard/footer.php");
        }

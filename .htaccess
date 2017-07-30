@@ -8,4 +8,5 @@ RewriteRule ^panel$                     index.php?c=user&a=dashboard
 RewriteRule ^publicar$                  index.php?c=user&a=publication
 RewriteRule ^publicaciones-realizadas$  index.php?c=user&a=post
 RewriteRule ^salir$  		                index.php
-rewriteRule ^recuperar-contraseña$      index.php?c=website&a=reset_password
+RewriteRule ^recuperar-contraseña$      index.php?c=website&a=reset_password
+RewriteRule ^crear-usuario$             index.php?c=website&a=create
